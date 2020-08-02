@@ -1,6 +1,7 @@
 .slider-wrapper {
     position: absolute;
     top: 0;
+    overflow: hidden;
 }
 
 .slider-item {
@@ -19,20 +20,50 @@ img {
     overflow: hidden;
 }
 
-button.slick-arrow {
+.slick-track {
+    display: flex;
+}
+
+.arrow-wrapper {
+    display: flex;
     position: absolute;
-    top: 41.5rem;
-    height: 4.375rem;
-    width: 4.125rem;
-    z-index: 10;
-    background-color: #FFFFFF;
-    /*opacity: 0.2;*/
+    top: 639px;
+    z-index: 2000;
 }
-.slick-arrow.slick-prev {
-    width: 10px; height: 19px;
-    background: url('../img/icons/css_sprites.png') -102px -354px;
+
+.slick-arrow {
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 67px; height: 70px;
+    background: url('../img/icons/css_sprites.png') -304px -122px;
 }
-.slick-arrow.slick-next {
-    width: 10px; height: 19px;
-    background: url('../img/icons/css_sprites.png') -72px -354px;
+
+.slick-arrow:active {
+    outline: none;
+}
+
+.slick-arrow:focus {
+    outline: none;
+}
+
+.slick-next {
+    transform: rotate(180deg);
+}
+
+.slick-next:hover {
+    background: url('../img/icons/css_sprites.png') -304px -212px;
+    transform: none;
+}
+
+.slick-prev:hover {
+    background: url('../img/icons/css_sprites.png') -304px -212px;
+    transform: rotate(180deg);
+}
+
+
+.slick-arrow :hover {
+    background: url('../img/icons/css_sprites.png') -304px -212px;
 }
