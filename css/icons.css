@@ -1,0 +1,24 @@
+.bg-w_logo {
+    width: 50px; height: 50px;
+    background: url('../img/icons/css_sprites.png') -304px -192px;
+}
+
+.bg-w_mobile {
+    width: 11px; height: 21px;
+    background: url('../img/icons/css_sprites.png') -10px -354px;
+}
+
+.bg-w_clock {
+    width: 17px; height: 17px;
+    background: url('../img/icons/css_sprites.png') -106px -304px;
+}
+
+.bg-w_letter {
+    width: 17px; height: 13px;
+    background: url('../img/icons/css_sprites.png') -180px -304px;
+}
+
+.bg-w_geo {
+    width: 17px; height: 17px;
+    background: url('../img/icons/css_sprites.png') -143px -304px;
+}

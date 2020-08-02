@@ -1,0 +1,38 @@
+.slider-wrapper {
+    position: absolute;
+    top: 0;
+}
+
+.slider-item {
+    /*height: 780px;*/
+}
+
+img {
+    /*height: 100%;*/
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+button.slick-arrow {
+    position: absolute;
+    top: 41.5rem;
+    height: 4.375rem;
+    width: 4.125rem;
+    z-index: 10;
+    background-color: #FFFFFF;
+    /*opacity: 0.2;*/
+}
+.slick-arrow.slick-prev {
+    width: 10px; height: 19px;
+    background: url('../img/icons/css_sprites.png') -102px -354px;
+}
+.slick-arrow.slick-next {
+    width: 10px; height: 19px;
+    background: url('../img/icons/css_sprites.png') -72px -354px;
+}
